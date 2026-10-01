@@ -1,0 +1,43 @@
+{
+  "parser_field_accuracy": 1.0,
+  "scenarios": 20,
+  "task_completion_rate": 1.0,
+  "budget_adherence_when_feasible": 1.0,
+  "infeasible_cases_with_suggestions": "3/3",
+  "constraint_satisfaction": 0.981,
+  "non_budget_constraints_all_pass": 1.0,
+  "groundedness": 1.0,
+  "weather_compliance": 1.0,
+  "baseline_budget_adherence": 0.25,
+  "agent_budget_adherence_all": 0.85,
+  "avg_utility_agent": 0.242,
+  "avg_utility_baseline": 0.124,
+  "avg_cost_saving_vs_baseline_pct": 20.0,
+  "avg_latency_s": 0.003,
+  "p95_latency_s": 0.004,
+  "avg_agent_messages": 17.9,
+  "retrieval_precision_at_5": 0.686,
+  "safety_screen_rate": 1.0
+}
+
+dest       month    feasible within checks  ground rain    agent     base   budget
+Goa        2026-12  True     True   8/8     1.0    0      48,825   76,398   60,000
+Goa        2027-07  True     True   8/8     1.0    6      67,179   75,411   70,000
+Dubai      2027-06  True     True   8/8     1.0    0     245,238  279,972  250,000
+Varanasi   2026-11  True     True   8/8     1.0    0      19,519   18,658   25,000
+Bangkok    2027-01  True     True   8/8     1.0    0     157,500  194,880  160,000
+Singapore  2026-12  True     True   8/8     1.0    0     296,478  370,776  300,000
+Delhi      2026-11  True     True   8/8     1.0    0      63,472   88,830   70,000
+Udaipur    2026-11  True     True   8/8     1.0    0      72,313   92,652  120,000
+Kochi      2027-02  True     True   8/8     1.0    0      46,053   51,450   50,000
+Jaipur     2026-11  True     True   8/8     1.0    0      20,433   24,297   30,000
+Kochi      2027-07  True     True   8/8     1.0    5      42,294   55,020   45,000
+Mumbai     2027-03  True     True   8/8     1.0    0      24,906   44,719   30,000
+Jaipur     2027-05  True     True   8/8     1.0    0      43,396   55,566   45,000
+Dubai      2026-12  True     True   8/8     1.0    0     169,365  161,700  180,000
+Bangkok    2027-08  True     True   8/8     1.0    0      65,730   72,943   90,000
+Varanasi   2027-02  False    False  7/8     1.0    0      61,026  102,018   60,000
+Goa        2027-01  True     True   8/8     1.0    0     167,202  295,407  200,000
+Singapore  2027-04  True     True   8/8     1.0    0     255,822  372,036  260,000
+Udaipur    2026-10  False    False  7/8     1.0    0      23,058   25,977   12,000
+Goa        2026-10  False    False  7/8     1.0    0      20,244   20,244    9,000
